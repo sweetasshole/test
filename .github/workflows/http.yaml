@@ -26,4 +26,4 @@ jobs:
           pip install aiohttp
 
       - name: Run flood script
-        run: python sub/actions/http.py ${{ github.event.inputs.url }}
+        run: python sub/actions/httpflood.py ${{ github.event.inputs.url }}
