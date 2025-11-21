@@ -8,7 +8,7 @@ print("started")
 URL = sys.argv[1] if len(sys.argv) > 1 else "https://www.baidu.com/"
 
 # ====== 限速配置 ======
-RATE_LIMIT = 500          # 每秒最大请求数
+RATE_LIMIT = 200          # 每秒最大请求数
 TOKENS = RATE_LIMIT       # 当前可用的 tokens
 last_refill = time.time()
 
