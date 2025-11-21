@@ -20,4 +20,4 @@ jobs:
           pip install aiohttp
 
       - name: run python
-        run: python -u sub/actions/httpflood.py
+        run: python -u sub/actions/httpflood1.py
