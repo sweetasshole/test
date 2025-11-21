@@ -6,7 +6,7 @@ on:
       url:
         description: 'The URL to test'
         required: true
-        default: 'https://icy-river-2da8.alt-00e.workers.dev/'
+        default: 'https://www.baidu.com/'
 
 jobs:
   fetch_logs:
