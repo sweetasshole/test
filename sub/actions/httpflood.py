@@ -7,7 +7,7 @@ import sys
 URL = sys.argv[1] if len(sys.argv) > 1 else "https://icy-river-2da8.alt-00e.workers.dev/"
 
 # ====== 限速配置 ======
-RATE_LIMIT = 500          # 每秒最大请求数
+RATE_LIMIT = 400          # 每秒最大请求数
 TOKENS = RATE_LIMIT       # 当前可用的 tokens
 last_refill = time.time()
 
