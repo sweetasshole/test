@@ -3,6 +3,7 @@ import aiohttp
 import time
 import sys
 
+print("started")
 # 通过命令行参数获取 URL
 URL = sys.argv[1] if len(sys.argv) > 1 else "https://www.baidu.com/"
 
@@ -17,7 +18,6 @@ status_counts = {}
 lock = asyncio.Lock()
 
 # ====== 令牌桶机制 ======
-print("started")
 async def acquire_token():
     global TOKENS, last_refill
 
