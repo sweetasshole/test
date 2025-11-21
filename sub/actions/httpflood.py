@@ -4,7 +4,7 @@ import time
 import sys
 
 # 通过命令行参数获取 URL
-URL = sys.argv[1] if len(sys.argv) > 1 else "https://icy-river-2da8.alt-00e.workers.dev/"
+URL = sys.argv[1] if len(sys.argv) > 1 else "https://www.baidu.com/"
 
 # ====== 限速配置 ======
 RATE_LIMIT = 500          # 每秒最大请求数
