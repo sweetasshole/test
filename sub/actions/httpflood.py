@@ -17,6 +17,7 @@ status_counts = {}
 lock = asyncio.Lock()
 
 # ====== 令牌桶机制 ======
+print("started")
 async def acquire_token():
     global TOKENS, last_refill
 
