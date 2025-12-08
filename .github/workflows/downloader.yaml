@@ -1,0 +1,27 @@
+name: Download File
+
+on:
+  workflow_dispatch:
+    inputs:
+      download_url:
+        description: 'URL to download file from'
+        required: true
+        default: 'https://example.com/file.zip'
+
+jobs:
+  download_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download file
+        run: |
+          echo "Downloading file from ${{ github.event.inputs.download_url }}"
+          curl -O ${{ github.event.inputs.download_url }}
+
+      - name: Verify file download
+        run: |
+          echo "Verifying if the file is downloaded"
+          ls -lh
