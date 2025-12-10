@@ -28,7 +28,6 @@
           <key>APN</key>
           <string>cmwap</string>
           <key>AuthenticationType</key>
-          <string>None</string>
           <key>Username</key>
           <string></string>
           <key>Password</key>
