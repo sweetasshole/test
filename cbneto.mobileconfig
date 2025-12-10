@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadDescription</key>
+      <string>Configures APN settings</string>
+      <key>PayloadDisplayName</key>
+      <string>APN Configuration</string>
+      <key>PayloadIdentifier</key>
+      <string>com.example.apn.cbneto</string>
+      <key>PayloadType</key>
+      <string>com.apple.cellular</string>
+      <key>PayloadUUID</key>
+      <string>22222222-3333-4444-5555-666666666666</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>APNs</key>
+      <array>
+        <dict>
+          <key>Name</key>
+          <string>cbneto</string>
+          <key>APN</key>
+          <string>cbneto</string>
+          <key>Type</key>
+          <string>default</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+
+  <key>PayloadDisplayName</key>
+  <string>Custom APN cbneto</string>
+  <key>PayloadIdentifier</key>
+  <string>com.example.apn.profile.cbneto</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>bbbbbbbb-cccc-dddd-eeee-ffffffffffff</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
