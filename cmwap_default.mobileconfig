@@ -6,17 +6,17 @@
   <array>
     <dict>
       <key>PayloadDescription</key>
-      <string>Configures MMS APN settings for CMMs</string>
+      <string>Configures default APN for cmwap</string>
       <key>PayloadDisplayName</key>
-      <string>CMMs MMS APN</string>
+      <string>cmwap Default APN</string>
       <key>PayloadIdentifier</key>
-      <string>com.example.apn.cmwap.mms</string>
+      <string>com.example.apn.cmwap.default</string>
       <key>PayloadOrganization</key>
       <string>Custom APN</string>
       <key>PayloadType</key>
       <string>com.apple.cellular</string>
       <key>PayloadUUID</key>
-      <string>33333333-4444-5555-6666-777777777777</string>
+      <string>44444444-5555-6666-7777-888888888888</string>
       <key>PayloadVersion</key>
       <integer>1</integer>
 
@@ -24,7 +24,7 @@
       <array>
         <dict>
           <key>Name</key>
-          <string>CMMs</string>
+          <string>cmwap</string>
           <key>APN</key>
           <string>cmwap</string>
           <key>AuthenticationType</key>
@@ -34,38 +34,26 @@
           <key>Password</key>
           <string></string>
           <key>Proxy</key>
-          <string>10.0.0.172</string>
+          <string>010.000.000.172</string>
           <key>ProxyPort</key>
           <integer>80</integer>
-          <key>MMSC</key>
-          <string>http://mmsc.monternet.com</string>
-          <key>MMSProxy</key>
-          <string>010.000.000.172</string>
-          <key>MMSProxyPort</key>
-          <integer>80</integer>
           <key>APNType</key>
-          <string>mms</string>
-          <key>MMSProtocol</key>
-          <string>WAP2</string>
-          <key>MCC</key>
-          <string>460</string>
-          <key>MNC</key>
-          <string>00</string>
+          <string>default</string>
         </dict>
       </array>
     </dict>
   </array>
 
   <key>PayloadDisplayName</key>
-  <string>CMMs MMS Configuration</string>
+  <string>cmwap Default APN Configuration</string>
   <key>PayloadIdentifier</key>
-  <string>com.example.apn.profile.cmwap</string>
+  <string>com.example.apn.profile.cmwap.default</string>
   <key>PayloadRemovalDisallowed</key>
   <false/>
   <key>PayloadType</key>
   <string>Configuration</string>
   <key>PayloadUUID</key>
-  <string>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</string>
+  <string>ffffffff-aaaa-bbbb-cccc-dddddddddddd</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
 </dict>
