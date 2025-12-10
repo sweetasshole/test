@@ -34,7 +34,7 @@
           <key>Password</key>
           <string></string>
           <key>Proxy</key>
-          <string>010.000.000.172</string>
+          <string>10.0.0.1722</string>
           <key>ProxyPort</key>
           <integer>80</integer>
           <key>APNType</key>
