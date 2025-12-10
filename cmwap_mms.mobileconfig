@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadDescription</key>
+      <string>Configures MMS APN settings for CMMs</string>
+      <key>PayloadDisplayName</key>
+      <string>CMMs MMS APN</string>
+      <key>PayloadIdentifier</key>
+      <string>com.example.apn.cmwap.mms</string>
+      <key>PayloadOrganization</key>
+      <string>Custom APN</string>
+      <key>PayloadType</key>
+      <string>com.apple.cellular</string>
+      <key>PayloadUUID</key>
+      <string>33333333-4444-5555-6666-777777777777</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>APNs</key>
+      <array>
+        <dict>
+          <key>Name</key>
+          <string>CMMs</string>
+          <key>APN</key>
+          <string>cmwap</string>
+          <key>AuthenticationType</key>
+          <string>None</string>
+          <key>Username</key>
+          <string></string>
+          <key>Password</key>
+          <string></string>
+          <key>Proxy</key>
+          <string>10.0.0.172</string>
+          <key>ProxyPort</key>
+          <integer>80</integer>
+          <key>MMSC</key>
+          <string>http://mmsc.monternet.com</string>
+          <key>MMSProxy</key>
+          <string>010.000.000.172</string>
+          <key>MMSProxyPort</key>
+          <integer>80</integer>
+          <key>APNType</key>
+          <string>mms</string>
+          <key>MMSProtocol</key>
+          <string>WAP2</string>
+          <key>MCC</key>
+          <string>460</string>
+          <key>MNC</key>
+          <string>00</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+
+  <key>PayloadDisplayName</key>
+  <string>CMMs MMS Configuration</string>
+  <key>PayloadIdentifier</key>
+  <string>com.example.apn.profile.cmwap</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
