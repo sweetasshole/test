@@ -37,7 +37,7 @@
           <string>10.0.0.1722</string>
           <key>ProxyPort</key>
           <integer>80</integer>
-          <key>APNType</key>
+          <key>Type</key>
           <string>default</string>
         </dict>
       </array>
