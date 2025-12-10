@@ -8,7 +8,7 @@
       <key>PayloadDescription</key>
       <string>Configures APN settings</string>
       <key>PayloadDisplayName</key>
-      <string>APN</string>
+      <string>APN Configuration</string>
       <key>PayloadIdentifier</key>
       <string>com.example.apn</string>
       <key>PayloadType</key>
@@ -20,6 +20,8 @@
       <key>APNs</key>
       <array>
         <dict>
+          <key>Name</key>
+          <string>cmtds</string>
           <key>APN</key>
           <string>cmtds</string>
           <key>Type</key>
