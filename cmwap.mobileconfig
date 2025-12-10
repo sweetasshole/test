@@ -23,7 +23,7 @@
           <key>Name</key>
           <string>cmwap</string>
           <key>APN</key>
-          <string>cmtds</string>
+          <string>cmwap</string>
           <key>Type</key>
           <string>default</string>
         </dict>
