@@ -23,7 +23,7 @@ jobs:
           pip install requests aiohttp
 
       - name: brutal
-        run: python sub/brutalfetcher.py 12
+        run: python sub/actions/fetcher.py 12
 
       - name: Upload Logs
         uses: actions/upload-artifact@v4
