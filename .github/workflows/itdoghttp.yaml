@@ -1,4 +1,4 @@
-name: httpflood1
+name: itdoghttp
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
 jobs:
   fetch_logs:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -19,5 +20,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install aiohttp
 
-      - name: run python
-        run: python -u sub/actions/httpflood1.py
+      - name: Run flood script
+        run: python sub/actions/itdoghttp.py
