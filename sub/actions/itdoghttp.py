@@ -52,9 +52,7 @@ def extract_task_id(html_content):
 async def ws_test(task_id):
     wss_url = 'wss://www.itdog.cn/websockets'
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Origin": "https://www.itdog.cn",
-        "Referer": "https://www.itdog.cn/http/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
     async with aiohttp.ClientSession() as session:
         async with session.ws_connect(wss_url) as ws:
