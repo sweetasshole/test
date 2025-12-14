@@ -20,5 +20,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install aiohttp  # 只需要安装 aiohttp
 
-      - name: Run flood script
+      - name: Run python script
         run: python sub/actions/itdoghttp.py
