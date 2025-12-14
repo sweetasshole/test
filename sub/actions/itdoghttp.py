@@ -51,6 +51,11 @@ def extract_task_id(html_content):
 # -----------------------------
 async def ws_test(task_id):
     wss_url = 'wss://www.itdog.cn/websockets'
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Origin": "https://www.itdog.cn",
+        "Referer": "https://www.itdog.cn/http/"
+    }
     async with aiohttp.ClientSession() as session:
         async with session.ws_connect(wss_url) as ws:
             # 发送订阅消息（参考 JS create_websocket 内逻辑）
