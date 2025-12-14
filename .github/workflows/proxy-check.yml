@@ -27,4 +27,4 @@ jobs:
 
       - name: Run proxy checker
         run: |
-          python /sub/actions/proxyvalidator.py
+          python sub/actions/proxyvalidator.py
