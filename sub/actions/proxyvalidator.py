@@ -1,7 +1,7 @@
 import aiohttp
 import asyncio
 import re
-from aiohttp_socks import ChainProxyConnector  # 使用 ChainProxyConnector
+from aiohttp_socks import ChainProxyConnector  # 使用 ChainProxyConnector 代替
 
 URL = "https://raw.githubusercontent.com/sweetasshole/test/refs/heads/main/sub/CNnodes/rawnodes.txt"
 TIMEOUT = 8
@@ -44,6 +44,7 @@ def create_connector(protocol, ip, port):
     if protocol == "http" or protocol == "https":
         return aiohttp.TCPConnector()
     elif protocol == "socks4" or protocol == "socks5":
+        # 使用 ChainProxyConnector 来处理 SOCKS 代理
         return ChainProxyConnector.from_url(f"socks5://{ip}:{port}" if protocol == "socks5" else f"socks4://{ip}:{port}")
     return None
 
