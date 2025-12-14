@@ -6,6 +6,7 @@ import aiohttp
 # -----------------------------
 # 1. 提交测试任务
 # -----------------------------
+print("测试开始！")
 async def submit_test_task():
     url = 'https://www.itdog.cn/http/'
 
