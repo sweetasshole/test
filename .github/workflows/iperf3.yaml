@@ -1,20 +1,29 @@
-- name: UDP connectivity test (iperf3)
-  run: |
-    sudo apt update
-    sudo apt install -y iperf3
+name: UDP iperf3 Test
+on: [push]
 
-    SERVERS=(
-      "51.158.154.173 5201"
-      "51.158.154.173 5200"
-      "94.23.122.180 5002"
-      "185.24.184.11 5240"
-      "51.68.48.148 9240"
-    )
+jobs:
+  udp-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install iperf3
+        run: |
+          sudo apt update
+          sudo apt install -y iperf3
 
-    for s in "${SERVERS[@]}"; do
-      ip=$(echo $s | awk '{print $1}')
-      port=$(echo $s | awk '{print $2}')
-      echo "==== Testing UDP $ip:$port ===="
-      timeout 10 iperf3 -c "$ip" -p "$port" -u -b 1M -t 5 || echo "FAILED"
-      echo
-    done
+      - name: Test UDP connectivity
+        run: |
+          SERVERS=(
+            "51.158.154.173 5201"
+            "51.158.154.173 5200"
+            "94.23.122.180 5002"
+            "185.24.184.11 5240"
+            "51.68.48.148 9240"
+          )
+
+          for s in "${SERVERS[@]}"; do
+            ip=$(echo $s | awk '{print $1}')
+            port=$(echo $s | awk '{print $2}')
+            echo "==== Testing UDP $ip:$port ===="
+            timeout 10 iperf3 -c "$ip" -p "$port" -u -b 1M -t 5 || echo "FAILED"
+            echo
+          done
