@@ -1,0 +1,3 @@
+cloudflared access ssh --hostname bay-supporters-affiliated-suites.trycloudflare.com localhost:11441
+adss --lang en
+749724296
