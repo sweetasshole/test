@@ -25,7 +25,7 @@ jobs:
           sudo mkdir /mnt/repo
           sudo mkdir /mnt/repo/test
           sudo chmod 777 /mnt/repo/test
-          sudo git clone https://github.com/sweetashole/test.git /mnt/repo/test
+          sudo git clone https://github.com/sweetasshole/test.git /mnt/repo/test
           sudo cp /mnt/repo/test/itarmy/services/mhddos.service /etc/systemd/system
           sudo cp /mnt/repo/test/itarmy/bin/mhddos_proxy_linux /opt/itarmy/bin/
           sudo systemctl daemon-reload
