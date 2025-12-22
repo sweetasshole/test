@@ -1,8 +1,8 @@
 name: service
 
 on:
-  schedule:
-    - cron: "*/8 * * * *"
+  # schedule:
+  #  - cron: "*/8 * * * *"
   workflow_dispatch:
 
 jobs:
