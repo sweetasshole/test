@@ -9,7 +9,6 @@ jobs:
 
     steps:
       # env
-      - name: set up env
       - run: |
           curl ifconfig.io
           sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
