@@ -1,4 +1,4 @@
-name: tunnel
+name: runcode
 
 on:
   workflow_dispatch:
@@ -9,26 +9,15 @@ jobs:
 
     steps:
       # env
+      - name: set up env
       - run: |
+          curl ifconfig.io
           sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
           sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
           echo "runner:runner" | sudo chpasswd
           sudo systemctl restart ssh
-
-      # service
-      - run: |
           curl -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 \
             -o cloudflared
           chmod +x cloudflared
           sudo mv cloudflared /usr/local/bin/
-
-      # Get External IP
-      - name: Get External IP
-        run: |
-          echo "External IP: $(curl ifconfig.io)"
-
-      # run service
-      - name: Run tunnel
-        id: tunnel
-        run: |
           cloudflared tunnel --url ssh://localhost:22 --no-autoupdate
