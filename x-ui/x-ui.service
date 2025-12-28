@@ -1,15 +1,15 @@
 [Unit]
 Description=x-ui Service
 After=network.target
-Wants=network.target
 
 [Service]
-Environment="XRAY_VMESS_AEAD_FORCED=false"
 Type=simple
-WorkingDirectory=/usr/local/x-ui/
 ExecStart=/usr/local/x-ui/x-ui
-Restart=on-failure
-RestartSec=5s
+Restart=always
+User=runner
+WorkingDirectory=/usr/local/x-ui
+Environment=HOME=/home/runner
+Environment=DISPLAY=
 
 [Install]
 WantedBy=multi-user.target
