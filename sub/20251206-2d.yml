@@ -15,25 +15,25 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 自动优选, server: cf.090227.xyz, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Linux do, server: linux.do, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Temu, server: www.temu.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Cloudflare Docs, server: docs.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: itarmy.com.ua, server: itarmy.com.ua, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Shopify, server: www.shopify.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: FBI, server: www.fbi.gov, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: WTO, server: www.wto.org, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Epicgames, server: www.epicgames.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Cloudflare Support, server: support.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Cloudflare blog, server: blog.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Cloudflare ns, server: ns.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Cloudflare Developers, server: developers.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: openai, server: openai.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: whatismyip, server: www.whatismyip.net, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: npmjs, server: www.npmjs.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Cdnjs, server: cdnjs.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Udemy, server: www.udemy.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
-  - {name: Csgo, server: www.csgo.net, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251206-1y.pusytroller.gq}}}
+  - {name: 自动优选, server: cf.090227.xyz, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: cloudflare dns, server: cloudflare-dns.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Temu, server: www.temu.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Cloudflare Docs, server: docs.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: itarmy.com.ua, server: itarmy.com.ua, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Shopify, server: www.shopify.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: FBI, server: www.fbi.gov, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: WTO, server: www.wto.org, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Epicgames, server: www.epicgames.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Cloudflare Support, server: support.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Cloudflare blog, server: blog.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Cloudflare ns, server: ns.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Cloudflare Developers, server: developers.cloudflare.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: openai, server: openai.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: whatismyip, server: www.whatismyip.net, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: npmjs, server: www.npmjs.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Cdnjs, server: cdnjs.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Udemy, server: www.udemy.com, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
+  - {name: Csgo, server: www.csgo.net, port: 2095, client-fingerprint: randomized, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20251230-1m.pusytroller.gq}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,7 +41,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -66,7 +66,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -91,7 +91,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -115,7 +115,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -139,7 +139,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -163,7 +163,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -188,7 +188,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
@@ -229,7 +229,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 自动优选
-      - Linux do
+      - cloudflare dns
       - Temu
       - Cloudflare Docs
       - itarmy.com.ua
